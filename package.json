@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "dotenv": "^8.2.0",
-    "hono": "^4.13.4",
+    "hono": "^4.13.5",
     "node-fetch": "^3.3.2",
     "rqa-workspace": "link:../router-js"
   },
