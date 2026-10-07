@@ -9,18 +9,18 @@ importers:
   .:
     dependencies:
       hono:
-        specifier: ^4.13.4
-        version: 4.13.4
+        specifier: ^4.13.7
+        version: 4.13.7
       rqa-workspace:
         specifier: link:../router-js
         version: link:../router-js
     devDependencies:
       '@hono/vite-build':
         specifier: ^1.11.1
-        version: 1.11.1(hono@4.13.4)
+        version: 1.11.1(hono@4.13.7)
       '@hono/vite-dev-server':
         specifier: ^0.26.1
-        version: 0.26.1(hono@4.13.4)(wrangler@4.125.0)
+        version: 0.26.1(hono@4.13.7)(wrangler@4.125.0)
       '@types/node':
         specifier: ^26.2.0
         version: 26.2.0
@@ -596,8 +596,8 @@ packages:
     engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
     os: [darwin]
 
-  hono@4.13.4:
-    resolution: {integrity: sha512-AGEwKIyRMHRv1t8Wjwa3LHxQ61X5CqrdFT+4BRNTpqS5aJNnpl5WLjADb7vFlJzI/8uK7T5QLVApCMQKNa3LgQ==}
+  hono@4.13.7:
+    resolution: {integrity: sha512-c8/gF9ac8Y78/agExVocyLevgR+JlpNB444Py0FSX8pJoPdYUfUzRcXtYEYGwt6l19qIlVZPN5Mfsw9jFShmQQ==}
     engines: {node: '>=16.9.0'}
 
   kleur@4.1.5:
@@ -935,18 +935,18 @@ snapshots:
   '@esbuild/win32-x64@0.28.1':
     optional: true
 
-  '@hono/node-server@1.19.17(hono@4.13.4)':
+  '@hono/node-server@1.19.17(hono@4.13.7)':
     dependencies:
-      hono: 4.13.4
+      hono: 4.13.7
 
-  '@hono/vite-build@1.11.1(hono@4.13.4)':
+  '@hono/vite-build@1.11.1(hono@4.13.7)':
     dependencies:
-      hono: 4.13.4
+      hono: 4.13.7
 
-  '@hono/vite-dev-server@0.26.1(hono@4.13.4)(wrangler@4.125.0)':
+  '@hono/vite-dev-server@0.26.1(hono@4.13.7)(wrangler@4.125.0)':
     dependencies:
-      '@hono/node-server': 1.19.17(hono@4.13.4)
-      hono: 4.13.4
+      '@hono/node-server': 1.19.17(hono@4.13.7)
+      hono: 4.13.7
       minimatch: 9.0.9
     optionalDependencies:
       wrangler: 4.125.0
@@ -1185,7 +1185,7 @@ snapshots:
   fsevents@2.3.3:
     optional: true
 
-  hono@4.13.4: {}
+  hono@4.13.7: {}
 
   kleur@4.1.5: {}
 
