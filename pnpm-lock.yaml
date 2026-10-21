@@ -25,8 +25,8 @@ importers:
         specifier: ^26.2.0
         version: 26.2.0
       vite:
-        specifier: ^8.1.4
-        version: 8.2.2(@types/node@26.2.0)(esbuild@0.28.1)
+        specifier: ^8.2.4
+        version: 8.2.4(@types/node@26.2.0)(esbuild@0.28.1)
       wrangler:
         specifier: ^4.125.0
         version: 4.125.0
@@ -747,8 +747,8 @@ packages:
   unenv@2.0.0-rc.24:
     resolution: {integrity: sha512-i7qRCmY42zmCwnYlh9H2SvLEypEFGye5iRmEMKjcGi7zk9UquigRjFtTLz0TYqr0ZGLZhaMHl/foy1bZR+Cwlw==}
 
-  vite@8.2.2:
-    resolution: {integrity: sha512-cFKLV/PRgAUlIRm5WjMjJ86jrftzpqcgH+Us+DS8mI3CDNiH30Whrz8uHL3+MOLPAgqbMBAqWdAHAphOAM+z/Q==}
+  vite@8.2.4:
+    resolution: {integrity: sha512-lfauXnrf2x0p+UoA+wXh0dgFWnUjCyG6Js95KBkgaCwUU9k0DAHI4W6Q0WCx+h+5g+Alce1y4Zi2QjjK0UvGBw==}
     engines: {node: ^20.19.0 || >=22.12.0}
     hasBin: true
     peerDependencies:
@@ -1345,7 +1345,7 @@ snapshots:
     dependencies:
       pathe: 2.0.3
 
-  vite@8.2.2(@types/node@26.2.0)(esbuild@0.28.1):
+  vite@8.2.4(@types/node@26.2.0)(esbuild@0.28.1):
     dependencies:
       lightningcss: 1.33.0
       picomatch: 4.0.5
