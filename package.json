@@ -9,7 +9,7 @@
 		"cf-typegen": "wrangler types --env-interface CloudflareBindings"
 	},
 	"dependencies": {
-		"hono": "^4.13.4",
+		"hono": "^4.13.11",
 		"rqa-workspace": "link:../router-js"
 	},
 	"devDependencies": {
